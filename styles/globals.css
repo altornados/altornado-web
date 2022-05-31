@@ -1,0 +1,47 @@
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./flexbox.css";
+@import "./border.css";
+@import "./padding.css";
+@import "./icon.css";
+@import "./anchor.css";
+@import "./text.css";
+@import "./font.css";
+@import "./background.css";
+@import "./animation.css";
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  overflow-x: hidden;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+	@apply bg-body text-default font-default;
+	@apply selection:bg-teal-400;
+	@apply selection:text-white;
+}
+
+#__next {
+	@apply text-opposite;
+}
+
+a, button, input {
+	@apply outline-none;
+}
+
+button {
+	@apply focus-visible:ring-2 focus-visible:ring-current;
+}

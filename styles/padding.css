@@ -1,0 +1,50 @@
+@layer base {
+	.p-sm {
+		@apply px-2 py-1;
+	}
+	
+	.p-md {
+		@apply px-4 py-2;
+	}
+	
+	.p-lg {
+		@apply px-8 py-4;
+	}
+
+	
+	.p-safe {
+		@apply pt-safe pb-safe pl-safe pr-safe;
+	}
+	
+	.pt-safe {
+		padding-top: env(safe-area-inset-top);
+	}
+	
+	.pb-safe {
+		padding-bottom: env(safe-area-inset-bottom);
+	}
+	
+	.pl-safe {
+		padding-left: env(safe-area-inset-left);
+	}
+	
+	.pr-safe {
+		padding-right: env(safe-area-inset-right);
+	}
+	
+	.ml-safe {
+		margin-left: env(safe-area-inset-left);
+	}
+	
+	.mr-safe {
+		margin-right: env(safe-area-inset-right);
+	}
+	
+	.mb-safe {
+		margin-bottom: env(safe-area-inset-bottom);
+	}
+	
+	.mt-safe {
+		margin-bottom: env(safe-area-inset-top);
+	}
+}

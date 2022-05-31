@@ -1,0 +1,42 @@
+{
+	"name": "alt",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"export": "next export",
+		"tunnel": "cloudflared tunnel --url http://localhost:3000"
+	},
+	"dependencies": {
+		"@heroicons/react": "^1.0.6",
+		"@metamask/detect-provider": "^1.2.0",
+		"@metamask/jazzicon": "^2.0.0",
+		"@popperjs/core": "^2.11.5",
+		"@types/tough-cookie": "^4.0.2",
+		"@walletconnect/web3-provider": "^1.7.8",
+		"ethers": "^5.6.5",
+		"fetch-cookie": "^2.0.3",
+		"next": "12.1.6",
+		"postcss-import": "^14.1.0",
+		"puppeteer": "^14.1.1",
+		"react": "18.1.0",
+		"react-dom": "18.1.0",
+		"react-popper": "^2.3.0",
+		"tough-cookie": "^4.0.0",
+		"web3": "^1.7.3"
+	},
+	"devDependencies": {
+		"@types/node": "17.0.32",
+		"@types/react": "18.0.9",
+		"@types/react-dom": "18.0.3",
+		"autoprefixer": "^10.4.7",
+		"eslint": "8.15.0",
+		"eslint-config-next": "12.1.6",
+		"postcss": "^8.4.13",
+		"tailwindcss": "^3.0.24",
+		"typescript": "4.6.4"
+	}
+}

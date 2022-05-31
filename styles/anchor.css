@@ -1,0 +1,5 @@
+@layer base {
+	.anchor {
+		@apply ahover:underline focus-visible:underline;
+	}
+}

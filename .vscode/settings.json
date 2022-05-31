@@ -1,0 +1,19 @@
+{
+	"files.exclude": {
+		".next": true,
+		".vscode": true,
+		"node_modules": true
+	},
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"css.format.enable": false,
+	"javascript.preferences.quoteStyle": "double",
+	"typescript.preferences.quoteStyle": "double",
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove"
+}

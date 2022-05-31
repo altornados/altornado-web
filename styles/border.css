@@ -1,0 +1,16 @@
+@layer base {
+	.border-default {
+		@apply border-white;
+		@apply dark:border-gray-500;
+	}
+
+	.border-opposite {
+		@apply border-black;
+		@apply dark:border-white;
+	}
+
+	.border-contrast {
+		@apply border-black border-opacity-10;
+		@apply dark:border-white dark:border-opacity-10;
+	}
+}

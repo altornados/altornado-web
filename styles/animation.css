@@ -1,0 +1,68 @@
+@layer base {
+	.animate-opacity {
+    animation: opacity 150ms ease;
+  }
+
+	.animate-scale {
+		animation: scale 150ms ease;
+	}
+
+	.animate-slideup {
+		animation: slideup 150ms ease;
+	}
+
+	.animate-slideleft {
+		animation: slideleft 150ms ease;
+	}
+
+	.animate-opacity-scale {
+		animation: opacity 150ms ease, scale 150ms ease;
+	}
+
+	.animate-spin-reverse {
+		transform: scale(-1);
+		@apply animate-spin;
+	}
+
+	.animate-header {
+		animation-name: spin;
+  	animation-duration: 1400ms;
+		animation-iteration-count: 1;
+		animation-timing-function: ease;
+	}
+
+	.animate-background {
+		animation: background 1s infinite alternate ease;
+	}
+
+	@keyframes underline {
+		from { background-size: 0% 100%; }
+		to { background-size: 100% 100%; }
+	}
+
+	@keyframes spin {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(-360deg); }
+	}
+
+	@keyframes opacity {
+		from { opacity: 0%; }
+	}
+
+	@keyframes scale {
+		from { transform: scale(0%); }
+	}
+
+	@keyframes slideup {  
+		from { transform: translateY(calc(100vh)); } 
+	}
+
+	@keyframes slideleft {  
+		from { transform: translateX(calc(100vh)); } 
+	}
+
+	@keyframes background {
+		from { background-size: 150%; background-position: 0% 50%; }
+		to { background-size: 150%; background-position: 100% 50%; }
+	}
+}

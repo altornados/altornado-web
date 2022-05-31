@@ -1,0 +1,18 @@
+@layer base {
+	.font-default {
+		font-family: ui-rounded, system-ui, sans-serif;
+	}
+
+	.font-montserrat {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.font-manrope {
+		font-family: 'Manrope', sans-serif;
+	}
+
+
+	.font-comfortaa {
+		font-family: 'Comfortaa', sans-serif;
+	}
+}
